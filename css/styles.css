@@ -334,6 +334,9 @@ iframe {
   font-weight: normal;
   font-style: italic;
 }
+.experience .item .description {
+  text-indent: 17px;
+}
 /* Git section */
 .github-graph {
   margin-bottom: 30px;
@@ -436,26 +439,29 @@ iframe {
   margin-bottom: 0;
 }
 .education .item .title {
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 0;
 }
 
 .education .item .subtitle {
-  font-size: 14px;
-  padding-left: 25px;
+  font-size: 15px;
+  padding-left: 27px;
+  font-weight: normal;
 }
 
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #999;
   font-weight: 700;
-  padding-left: 25px;
+  padding-left: 27px;
 }
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 600;
 }
+
+
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
